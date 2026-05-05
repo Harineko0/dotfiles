@@ -59,6 +59,19 @@ require("lazy").setup("plugins", {
 	},
 })
 
+require("lazy").setup({
+	{
+		"projekt0n/github-nvim-theme",
+		name = "github-theme",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("github-theme").setup({})
+			vim.cmd("colorscheme github_dark")
+		end,
+	},
+})
+
 -- VS Code 風:
 -- - nvim                    → カレントディレクトリが Git repo 内なら Git root を左ツリーで開く
 -- - nvim .                  → . が Git repo 内なら Git root を左ツリーで開く
