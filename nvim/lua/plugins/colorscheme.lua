@@ -1,8 +1,13 @@
 return {
-	"anAcc22/sakura.nvim",
-	dependencies = "rktjmp/lush.nvim",
-	config = function()
-		vim.opt.background = "dark" -- or "light"
-		vim.cmd("colorscheme sakura") -- sets the colorscheme
-	end,
+	{
+		"folke/tokyonight.nvim",
+		priority = 1000,
+		opts = {
+			style = "moon",
+		},
+		config = function(_, opts)
+			require("tokyonight").setup(opts)
+			vim.cmd.colorscheme("tokyonight")
+		end,
+	},
 }
