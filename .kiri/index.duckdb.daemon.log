@@ -1,0 +1,34 @@
+/usr/local/lib/node_modules/kiri-mcp-server/node_modules/@parcel/watcher/index.js:26
+      throw new Error(`No prebuild or local build of @parcel/watcher found. Tried ${name}. Please ensure it is installed (don't use --no-optional when installing with npm). Otherwise it is possible we don't support your platform yet. If this is the case, please report an issue to https://github.com/parcel-bundler/watcher.`);
+            ^
+
+Error: No prebuild or local build of @parcel/watcher found. Tried @parcel/watcher-darwin-arm64. Please ensure it is installed (don't use --no-optional when installing with npm). Otherwise it is possible we don't support your platform yet. If this is the case, please report an issue to https://github.com/parcel-bundler/watcher.
+    at Object.<anonymous> (/usr/local/lib/node_modules/kiri-mcp-server/node_modules/@parcel/watcher/index.js:26:13)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:327:3)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:232:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v25.9.0
+/usr/local/lib/node_modules/kiri-mcp-server/node_modules/@parcel/watcher/index.js:26
+      throw new Error(`No prebuild or local build of @parcel/watcher found. Tried ${name}. Please ensure it is installed (don't use --no-optional when installing with npm). Otherwise it is possible we don't support your platform yet. If this is the case, please report an issue to https://github.com/parcel-bundler/watcher.`);
+            ^
+
+Error: No prebuild or local build of @parcel/watcher found. Tried @parcel/watcher-darwin-arm64. Please ensure it is installed (don't use --no-optional when installing with npm). Otherwise it is possible we don't support your platform yet. If this is the case, please report an issue to https://github.com/parcel-bundler/watcher.
+    at Object.<anonymous> (/usr/local/lib/node_modules/kiri-mcp-server/node_modules/@parcel/watcher/index.js:26:13)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:327:3)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:232:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v25.9.0

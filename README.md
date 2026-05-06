@@ -40,6 +40,7 @@ On first launch, `lazy.nvim` bootstraps itself and installs every plugin listed 
 | [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | Git gutter signs, hunk navigation, blame |
 | [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) | LazyGit integration |
 | [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | Floating terminal / LazyGit float |
+| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | VS Code-style file tab bar |
 | [anAcc22/sakura.nvim](https://github.com/anAcc22/sakura.nvim) | Colorscheme |
 
 ### Shortcuts
@@ -93,6 +94,19 @@ Inside Neo-tree: `o` / `<CR>` open, `S` split, `s` vsplit, `t` new tab, `a` add,
 | `<leader>ca` | Code action |
 | `<leader>fd` | Line diagnostics (float) |
 | `[d` / `]d` | Previous / next diagnostic |
+
+#### Buffers / Tabs (bufferline)
+
+| Key | Action |
+| --- | --- |
+| `<S-h>` | Previous tab |
+| `<S-l>` | Next tab |
+| `<leader>bp` | Pick buffer by letter |
+| `<leader>bc` | Pick buffer to close |
+| `<leader>bd` | Delete current buffer |
+| `<leader>bD` | Close all other buffers |
+| `<leader>b[` | Move tab left |
+| `<leader>b]` | Move tab right |
 
 #### Misc
 

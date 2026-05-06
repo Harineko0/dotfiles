@@ -43,6 +43,7 @@ vim.opt.smartcase = true
 vim.opt.signcolumn = "yes"
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+vim.opt.showtabline = 2
 
 vim.opt.mouse = "a"
 vim.opt.termguicolors = true
