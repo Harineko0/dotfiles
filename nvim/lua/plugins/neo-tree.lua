@@ -19,9 +19,10 @@ return {
 				},
 				use_libuv_file_watcher = true,
 				filtered_items = {
-					visible = false,
+					visible = true,
 					hide_dotfiles = false,
-					hide_gitignored = true,
+					hide_gitignored = false,
+					hide_hidden = false,
 				},
 			},
 
